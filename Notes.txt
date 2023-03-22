@@ -1,0 +1,41 @@
+Classification - predict discrete classes 
+
+    Binary classification 
+        Determining if something is 
+        - Positive Negative
+        - Cat or Dog
+        - Spam or not Spam
+
+    Multiclass classification
+        classify multiple different items of objects
+        Cat/Dog/Lizard/Dolphin
+        Plant Species
+
+
+Regression - predict continuous 
+    - Predicting Stock Price
+    - Predicting House Vlaue 
+    - Predicting Temperature
+
+
+HOW TO USE A SUPERVISED LEARNING DATA SET 
+
+TRAINING DATA SET 
+    feeds into the model
+    calculate the loss (how far off from the desired value)
+
+VALIDATION DATA SET
+    used as a reality check during.after training to ensure model can handle unseen DATA
+    SIMILAR TO TRAINING DATA but IS NOT fed back into the model 
+    LOSS from using the validation set is not fed back in
+
+TEST DATA SET 
+    Used to check how generalised the final chosen model is
+
+
+LOSS
+    There are different types of determining loss
+    This is known as a loss function that determines this loss
+
+    L1 loss = sum(|y_real - y_predicted|)
+    
