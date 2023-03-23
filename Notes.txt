@@ -32,10 +32,16 @@ VALIDATION DATA SET
 TEST DATA SET 
     Used to check how generalised the final chosen model is
 
-
 LOSS
     There are different types of determining loss
     This is known as a loss function that determines this loss
 
     L1 loss = sum(|y_real - y_predicted|)
+
+
+
+
+
+ 
+
     
