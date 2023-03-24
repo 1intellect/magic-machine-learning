@@ -39,7 +39,7 @@ LOSS
     L1 loss = sum(|y_real - y_predicted|)
 
 
-
+ 
 
 
  
